@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "humanitarian-353009",
+  "private_key_id": "1c9076d2481407ebefe6ffc30d988e137c11e249",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCSJKwk8nnqhOPa\ntgB9ARYKKYBFzTwdogsU/6oG8hFBm6romOTzJRGCIHbc1JmyJT5Y7vVZR3SH2RX9\nOtUQOegB7vKg4HmDpecJkddLU5SArZYePfyI4X2jKxTuZ082J3NBXpjYm+TLAqNL\nQbU9ZluCqk3nsM377loTMeKW/4uN9FYN6v+omavZLZZO14shdyX/2c/aBChOaOMC\nqzsiEaxvHlFbq1FT4W7BY3tQRVXPCid5vcDMuk1OaGTrMWb6sPJP+eLaPdVJuSoB\nQHyS8rSofDULf5YrThCbQxr7C+/LYqVOD2ECEwLsOXWa8nP8NidNaDVDcUVXKR/h\nEmsFbxFPAgMBAAECggEAGGgZe74nEDyLVR5qLHY++Ql/S6j/7i7+zM351lkc+qkF\nvPyz18uMBgBn+W9kD7VamT2nKfbeBkYB/x2RMbmJ/rCqQqXahVryn82EeCcIOQlE\ndd6CS1XlRpfOUhZcyz2BaRxkSGCYsDLLlKjvnMZ4Z/ULN7N2YymmT2hYYEFjTByO\nhLrUQ+9BjmUksiA+q0ZRSio85E80yC59rgh75bgK3H+ZutRVJQ6KxDDyIoTUSObI\nJofIBUJ+dhy8E1lopVn5sNR7MGbmEalI3gorJ9wc6W8RBK+ji/Z12ebaLUW3WJ3l\nSePgbOr7oQ3F6ecmedDo7VWv86HV+efbTq47ywNFwQKBgQDL0Hs0CaPsfpR1uT1l\nTxaKuWqk7qQrdjZlavTc9NIIzLJJ9j1zcLj9/0IReOonjKxzvI3ycT9TGChzfkUo\n1tcOjlJCjbv5FaX+XJKSB/s8YxI6wsSv9YU4qdKbILLNJUZq1yVLdqtaqFUQKZhn\ny0E6SSjkE3LrA/m1joVx9jDcIQKBgQC3j/5+9IHXFEW9r8DQz8IO4QcVD4h5GtP5\n5YCqs/l64ILCIRtBSMseqrNnd89omXG48pZDa/VD4A3igDs60wZ4KyNhaCDgJKcf\nB1YPW4awrJwXVwF73dbVvGwHuHuA8sCo9lxh0rXiCW6VTj4KlADEXA+qaV+XxpIF\nbiNJiaO/bwKBgAFWVtiaj5bHpdW35204vZ8fZFG8txsJ5YV41C529MHWBf1yPij5\nvlz8RcSzlGW6CI+h1xSWJaI38FwBohaIglS4HlYNdARIXhRzKwsGPmHBDKeSC5RT\n+hHLG3SlHEc4TWP6EWaTWsB3hkda3oMf1Ee7nycP8ZsVJZhJXRrIUL3BAoGANUo2\nZgDx2NDn1kO5xGUsP0mQ1splolLpizjXe7c4DDY1f8pAsVlCrqp73uPncMRrQXgb\nq4Mh9wyKu2Di0RcGX8iWQucJ9EhvxBBLKbY2if/yaMw3gBBNGEvVSQCDylGvIN40\nv6l+aBq44duPI18IQflACwcAW32oUq9Ay06MHT0CgYEAor+gjbPskKDQVP2iTZ/D\nQgbsBqsIZboAgM0ZAs6JZNgy9SK4p7bRYvwY1i3q0hnlGO198sXhht9jddnLSwXz\nn8L2QjLDbjIzsA+4/QbLYHixUp20NLhV2HaBqWETyerfzYTNHhEYIAXXo8iBULPn\nbjpH52ww6FfZ8eqAHBXfw9w=\n-----END PRIVATE KEY-----\n",
+  "client_email": "antonhumanitarian@humanitarian-353009.iam.gserviceaccount.com",
+  "client_id": "109377767158107390297",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/antonhumanitarian%40humanitarian-353009.iam.gserviceaccount.com"
+}

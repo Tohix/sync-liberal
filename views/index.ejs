@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Допомога синхонізації</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark" style="justify-content: center; background-color: #245e88">
+        <a class="navbar-brand"  href="#">Перейти на головну сторінку</a>
+    </nav>
+    <br />
+    <div class="container">
+        <div style="display: flex; justify-content: center">
+            <img src="../assets/flag.jpeg" style="width: 500px">
+        </div>
+        <br />
+        <div style="display: flex; justify-content: center">
+            <div class="card" style="width: 800px">
+                <div class="card-body">
+                    <form action="" method="POST" onsubmit="saveData()">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">ID форми</label>
+                            <input type="text" class="form-control" id="destinationSpreadsheetId" name="destinationSpreadsheetId">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">ID джерела</label>
+                            <input type="text" class="form-control" id="sourceSpreadsheetId" name="sourceSpreadsheetId">
+                        </div>
+                        <br>
+                        <div style="display: flex; justify-content: center">
+                            <button type="submit" class="btn btn-primary btn-sm">Перевірити</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const sourceSpreadsheetId = document.getElementById("sourceSpreadsheetId");
+        const destinationSpreadsheetId = document.getElementById("destinationSpreadsheetId")
+        sourceSpreadsheetId.value = localStorage.getItem('sourceSpreadsheetId')
+        destinationSpreadsheetId.value = localStorage.getItem('destinationSpreadsheetId')
+    });
+
+   function saveData() {
+       const sourceSpreadsheetId = document.getElementById("sourceSpreadsheetId");
+       const destinationSpreadsheetId = document.getElementById("destinationSpreadsheetId");
+       localStorage.setItem("sourceSpreadsheetId", sourceSpreadsheetId.value);
+       localStorage.setItem("destinationSpreadsheetId", destinationSpreadsheetId.value);
+   }
+</script>
+</html>

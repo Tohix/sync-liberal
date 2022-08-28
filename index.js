@@ -120,7 +120,7 @@ const getSourceData = async (googleSheetsInstance, spreadsheetId) => {
     console.log(sheets.data.sheets[0].sheetId);
 
     if (!sheets.data || !sheets.data.sheets || !sheets.data.sheets.length) {
-        throw new Error('Source sheet is empty')
+        throw new Error('Джерело таблиці порожне')
     }
 
     return Promise.all(sheets.data.sheets.map(v => googleSheetsInstance.spreadsheets.values.get({
@@ -137,7 +137,7 @@ const getDestinationSheetId = async (googleSheetsInstance, spreadsheetId) => {
     })
 
     if (!sheets.data || !sheets.data.sheets || !sheets.data.sheets.length) {
-        throw new Error('Destination sheet is empty')
+        throw new Error('Форма таблиці порожня')
     }
 
     return sheets.data.sheets[0].properties.sheetId
